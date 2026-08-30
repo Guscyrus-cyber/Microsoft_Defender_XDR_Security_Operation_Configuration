@@ -78,12 +78,7 @@ Microsoft 365 suite selected\
 Microsoft Entra selected\
 The green **Changes saved** confirmation (Images 1, 2, and 3)
 
-<img src="extracted_media/media/image1.png" style="width:6.5in;height:3.61667in" />\
-\
-<img src="extracted_media/media/image2.png" style="width:6.5in;height:3.61597in" />\
-\
-<img src="extracted_media/media/image3.png" style="width:6.5in;height:3.61597in" />\
-\
+
 **Configuration Task 2 — Configure Least-Privilege SOC Permissions**
 ------------------------------------------------------------------------------------
 
@@ -103,7 +98,7 @@ The distinction shown here is important:
 
 ### The administrator account currently has broad access, but daily SOC work should use narrower permissions. (images 4)\
 \
-<img src="extracted_media/media/image4.png" style="width:6.5in;height:3.64722in" />\
+
 \
 Step 2 — Begin creating the SOC role
 
@@ -174,21 +169,6 @@ The summary confirms:
 
 This preserves least privilege. ( Images 5, 6, 7, 8, 9, and 10)
 
-<img src="extracted_media/media/image5.png" style="width:6.5in;height:3.64722in" />
-
-<img src="extracted_media/media/image6.png" style="width:6.5in;height:3.64722in" />\
-\
-\
-<img src="extracted_media/media/image7.png" style="width:6.5in;height:3.64722in" />\
-\
-\
-<img src="extracted_media/media/image8.png" style="width:6.5in;height:3.64722in" />\
-\
-<img src="extracted_media/media/image9.png" style="width:6.5in;height:3.64722in" />\
-\
-\
-<img src="extracted_media/media/image10.png" style="width:6.5in;height:3.64722in" />\
-\
 I Click **Next** to open **Assignments**.\
 The role now needs an assignment that connects:
 
@@ -207,11 +187,6 @@ The assignment was added successfully:
 **Assignment:** SOC Tier 1 Analysts – Security Operations\
 **Assigned identity:** One group\
 The role is group-based rather than assigned directly to the administrator, which is the correct approach. (Images 11, 12, and 13)\
-<img src="extracted_media/media/image11.png" style="width:6.5in;height:3.64722in" />\
-\
-<img src="extracted_media/media/image12.png" style="width:6.5in;height:3.64722in" />
-
-<img src="extracted_media/media/image13.png" style="width:6.5in;height:3.64722in" />
 
 I Click **Next** to open **Review and finish**.
 
@@ -221,13 +196,7 @@ Data Operations status\
 Assignment name\
 Assigned group\
 Selected data sources or scope (Images 14, and 15)\
-\
-<img src="extracted_media/media/image14.png" style="width:6.5in;height:3.64722in" />\
-\
-\
-\
-<img src="extracted_media/media/image15.png" style="width:6.5in;height:3.64722in" />\
-\
+
 Configure the Sentinel workspace scope
 
 1.  I Leave **Data sources** as **None selected**.
@@ -289,28 +258,7 @@ No response or containment permission\
 No role-administration permission\
 No data-management permission\
 No automatic access to future Defender data sources or Sentinel workspaces (Images 16, 17, 18, 19, and 20)\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-<img src="extracted_media/media/image16.png" style="width:6.5in;height:3.64722in" />
 
-<img src="extracted_media/media/image17.png" style="width:6.5in;height:3.64722in" />\
-\
-<img src="extracted_media/media/image18.png" style="width:6.5in;height:3.64722in" />
-
-<img src="extracted_media/media/image19.png" style="width:6.5in;height:3.64722in" />\
-\
-<img src="extracted_media/media/image20.png" style="width:6.5in;height:3.64722in" />\
-\
 Configuration Task 3 — Verify the change through auditing
 
 1.  I click **Done**.
@@ -342,8 +290,5 @@ The role has been verified successfully. The list confirms:
 The Audit search could not be used because the portal returned an RBAC tenant-settings client error; that limitation should not be a lab failure. (Please refer to Image 21)
 
 This completes **Configuration Task 3** through direct verification. (Images 21 and 22)\
-\
-<img src="extracted_media/media/image21.png" style="width:6.5in;height:3.64722in" />\
-\
-\
-<img src="extracted_media/media/image22.png" style="width:6.5in;height:3.64722in" />
+
+
