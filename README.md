@@ -96,10 +96,9 @@ The distinction shown here is important:
 
 - **Scopes** limit which devices, users, or data the permissions apply to.
 
-### The administrator account currently has broad access, but daily SOC work should use narrower permissions. (images 4)\
-\
+### The administrator account currently has broad access, but daily SOC work should use narrower permissions. (images 4)
 
-\
+
 Step 2 — Begin creating the SOC role
 
 I Click **Create custom role**.
@@ -190,12 +189,12 @@ The role is group-based rather than assigned directly to the administrator, whic
 
 I Click **Next** to open **Review and finish**.
 
-### The role name, description, and Security operations**,** Custom selected status are correct. However, the lower permission details and assignment scope are not visible yet.The individual selected permissions\
+### The role name, description, and Security operations**,** Custom selected status are correct. However, the lower permission details and assignment scope are not visible yet.The individual selected permissions.
 Authorization and settings status\
 Data Operations status\
 Assignment name\
 Assigned group\
-Selected data sources or scope (Images 14, and 15)\
+Selected data sources or scope (Images 14, and 15)
 
 Configure the Sentinel workspace scope
 
@@ -257,9 +256,9 @@ Access limited to soc-sentinel-workspace\
 No response or containment permission\
 No role-administration permission\
 No data-management permission\
-No automatic access to future Defender data sources or Sentinel workspaces (Images 16, 17, 18, 19, and 20)\
+No automatic access to future Defender data sources or Sentinel workspaces (Images 16, 17, 18, 19, and 20)
 
-Configuration Task 3 — Verify the change through auditing
+**Configuration Task 3 — Verify the change through auditing**
 
 1.  I click **Done**.
 
